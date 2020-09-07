@@ -1,0 +1,103 @@
+/*COLORS*/
+/*
+
+HEADER BG ------------------> background-color: #ededed;
+NAV BG ---------------------> background-color: #999999;
+MAIN TITLE TEXT-------------> color: #999999;
+MAIN TITLE BG ARTICLES -----> background-color: #ededed;
+MAIN TITLES TEXT ARTICLES --> color: #616161;
+MAIN BG ACCESS IMG ---------> background-color: #999999;
+FOOTER BG ------------------> background-color: #999999;
+FOOTER COPYRIGHT TEXT ------> color: #696969;
+
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    font-size: 16px;
+}
+
+
+/*HEADER*/
+
+    /*color background header*/
+        header.bg-color{
+            background-color: #ededed;
+        }   
+
+/*NAV*/
+    /*color background barra navegación*/
+        nav.bg-color{
+            background-color: #999999;   
+        }
+
+    /*color y tamaño de texto barra navegación */
+        #nav-menu a{
+            color: white;
+            font-size: 1.5rem;
+            margin-right: 20px;
+        }
+/*MAIN*/
+
+/*MAIN SECTION_1*/
+    
+    /*color text h1 título principal*/
+        h1{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            color: #999999;
+        }
+
+    /*color background-color títulos y artículos*/
+        
+        h5{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            color: #616161;
+        }
+        h5.bg-color{
+            background-color: #ededed;
+        }
+        p.text-config{
+            font-family:'Times New Roman', Times, serif;
+            
+        }
+
+/*MAIN SECTION_2*/
+
+    /*color background acceso pie de imagen */
+        .nav-bg-color{
+            background-color: #999999; 
+        }
+
+/*FOOTER*/
+
+    /*color background de todo el footer*/
+        footer.bg-color{
+            background-color: #999999;
+        }
+    /*tamaño logo web*/
+        .footer-logo-img-size{
+            width: 75px;
+            height: 75px;
+        }
+    /*tamaño logos social*/
+        .footer-logo-social-img-size{
+            width: 40px;
+            height: 40px;
+        }
+    /*color text linea copyright*/
+        #footer-copyright.text-color{
+            color: #696969;
+        }
+
+
+
+
+
+
+

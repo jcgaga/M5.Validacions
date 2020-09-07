@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sing-In</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/singin.css">
+</head>
+
+<body>
+	<div class="login">
+		<div class="login-screen">
+			<div class="app-title">
+				<h1>Sing-In</h1>
+			</div>
+			<form class="login-form" method="GET" action="login.html" id="myFormSinginId" onsubmit="return singinValidate()" name="myFormSingin">
+				<div class="control-group">
+					<input type="email"  placeholder="E-mail" id="singin-email" name="singin-email">
+					<div class="invalid-feedback" id="errorEmail"></div>
+				</div>
+
+				<div class="control-group">
+					<input type="password" placeholder="Password" id="singin-pass" name="singin-pass">
+					<div class="invalid-feedback" id="errorPassword"></div>
+				</div>
+
+				<div class="control-group">
+					<input type="password" placeholder="Repeat Password" id="repeat-singin-pass" name="repeat-singin-pass">
+					<div class="invalid-feedback" id="errorRepeatPassword"></div>
+				</div>
+				<div class="control-group">
+					<select id="singin-province" name="singin-province">
+						<option value="notSelect">Province</option>
+						<option value="Barcelona">Barcelona</option>
+						<option value="Tarragona">Tarragona</option>
+						<option value="Lleida">Lleida</option>
+						<option value="Girona">Girona</option>
+					</select>
+					<div class="invalid-feedback" id="errorProvince"></div>
+				</div>
+				<div class="control">
+					<button class="btn btn-primary btn-large btn-block" type="submit">Sing-In</button>
+				</div>
+				
+			</form>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/validate.js" type="text/javascript"></script> 
+</body>
+
+</html>
